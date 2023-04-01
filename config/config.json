@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Andromeda Light Nextjs",
+    "title": "MAMS SISO Overview",
     "base_url": "/",
-    "favicon": "/images/favicon.png",
+    "favicon": "/images/siso2.png",
     "logo": "/images/siso2.png",
     "logo_width": "80",
     "logo_height": "80",
-    "logo_text": "Andromeda"
+    "logo_text": "MAMS SISO"
   },
 
   "settings": {
@@ -29,14 +29,14 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Download Now",
-    "link": "https://themefisher.com/products/andromeda-light-nextjs"
+    "label": "Visit Dashboard",
+    "link": "https://mams-siso.wpi.edu/"
   },
 
   "metadata": {
-    "meta_author": "Joe & Sons Inc.",
+    "meta_author": "MAMS SISO Overview",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Andromeda-light Nextjs Blog Template"
+    "meta_description": "Redesigning the Mass Academy Sign-In/Sign-Out System"
   },
 
   "call_to_action": {
@@ -53,4 +53,7 @@
     "shortname": "themefisher-template",
     "settings": {}
   }
+  
 }
+
+
