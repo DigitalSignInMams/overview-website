@@ -1,0 +1,26 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Terms & Conditions",
+      "url": "/terms-policy"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Dashboard",
+      "url": "https://mams-siso.wpi.edu/"
+    },
+    {
+      "name": "Terms & Conditions",
+      "url": "/terms-policy"
+    }
+  ]
+}

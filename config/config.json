@@ -1,0 +1,56 @@
+{
+  "site": {
+    "title": "Andromeda Light Nextjs",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/siso2.png",
+    "logo_width": "80",
+    "logo_height": "80",
+    "logo_text": "Andromeda"
+  },
+
+  "settings": {
+    "pagination": 6,
+    "summary_length": 200,
+    "blog_folder": "posts"
+  },
+
+  "params": {
+    "tag_manager_id": "",
+    "contact_form_action": "#",
+    "footer_content": "MAMS SISO is a digital logging system for Mass Academy in order to cut down on paper sign-ins and sign-outs. Furthermore, the system allows for more accurate attendance records as well as a transparent method to view past records. Developed by Tarun Eswar, Charles Tang, and David Barsoum.",
+    "copyright": "Theme provided by [Themefisher](https:www.themefisher.com)"
+  },
+
+  "contact_info": {
+    "email": "mams.siso.service@gmail.com",
+    "location": "85 Prescott St. Worcester MA"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Download Now",
+    "link": "https://themefisher.com/products/andromeda-light-nextjs"
+  },
+
+  "metadata": {
+    "meta_author": "Joe & Sons Inc.",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Andromeda-light Nextjs Blog Template"
+  },
+
+  "call_to_action": {
+    "enable": true,
+    "title": "Find Out More About our Product",
+    "button": {
+      "label": "Learn More",
+      "link": "https://github.com/DigitalSignInMams"
+    }
+  },
+
+  "disqus": {
+    "enable": true,
+    "shortname": "themefisher-template",
+    "settings": {}
+  }
+}
