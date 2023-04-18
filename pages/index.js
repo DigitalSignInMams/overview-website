@@ -187,6 +187,8 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 </div>
               </div>
             </div>
+            <h6 className="text-center">Instructed by Angela Taricco of Mass Academy</h6>
+            <br></br>
             <div className="row border-y border-border py-5">
               <div className="animate text-center pb-5">
             <p className="uppercase">{"Attributions"}</p>
@@ -280,7 +282,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       </section>
 
       {/* Short Into */}
-      <section className="section pt-0">
+      {/* <section className="section pt-0">
         <div className="container-xl">
           <div className="relative px-4 py-[70px]">
             <div className="text-center">
@@ -348,7 +350,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Special Features */}
       <section className="section mx-2">
@@ -393,8 +395,30 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               {markdownify(speciality.secondary.description, "p", "mt-10")}
             </div>
           </div>
+          <div className="row items-center">
+            <div className="animate lg:col-6">
+              <ImageFallback
+                className="mx-auto"
+                src={speciality.third.image}
+                width={575}
+                height={511}
+                alt="secondary speciality"
+              />
+            </div>
+            <div className="animate lg:col-5">
+              <p>{speciality.third.subtitle}</p>
+              {markdownify(
+                speciality.third.title,
+                "h2",
+                "mt-4 section-title bar-left"
+              )}
+              {markdownify(speciality.third.description, "p", "mt-10")}
+            </div>
+          </div>
         </div>
       </section>
+
+      
 
       {/* Testimonial */}
       <section className="section pt-0 mz-2">
@@ -484,7 +508,7 @@ export default Home;
 export const getStaticProps = async () => {
   const homepage = await getListPage("content/_index.md");
   const { frontmatter } = homepage;
-  const { banner, brands, features, intro, speciality, testimonial } =
+  const { banner, brands, features, speciality, testimonial } =
     frontmatter;
 
   return {
@@ -492,7 +516,7 @@ export const getStaticProps = async () => {
       banner: banner,
       brands: brands,
       features: features,
-      intro: intro,
+      // intro: intro,
       speciality: speciality,
       testimonial: testimonial,
     },

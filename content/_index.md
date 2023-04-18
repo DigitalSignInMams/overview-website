@@ -47,25 +47,30 @@ features:
       content: Our product allows for the reduction of paper previously used to keep track of sign-ins/sign-outs in a manual fashion.
 
 #intro
-intro:
-  title: Built Exclusively For You
-  subtitle: SHORT INTRO VIDEO
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
-  thumbnail: "/images/video-popup.jpg"
-  video_id: dyZcRRWiuuw
+# intro:
+#   title: Built Exclusively For You
+#   subtitle: SHORT INTRO VIDEO
+#   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
+#   thumbnail: "/images/video-popup.jpg"
+#   video_id: dyZcRRWiuuw
 
 #speciality
 speciality:
   primary:
     title: Real-time Logging and Updates
     subtitle: PRIMARY SPECIALITY
-    description: Other solutions often experience ~3 seconds worth of latency when retrieving data from log-ins. Our system minimizes margins of error with a state-of-the-art API that provides instantenous 
+    description: Other solutions often experience ~3 seconds worth of latency when retrieving data from log-ins. Our system minimizes margins of error with a state-of-the-art API that provides instantaneous updates.
     image: /images/features-01.svg
   secondary:
     title: A Methodical Testing Cycle
     subtitle: SECONDARY SPECIALITY
     description: Our product has undergone a 4-month period of testing prior to full implementation. This period has allowed us to ensure optimal results for the users and admins.
     image: /images/features-02.svg
+  third:
+    title: MAMS SISO Group
+    subtitle: The Team
+    description: Our team consists of Tarun Eswar, Charles Tang, and David Barsoum. David and Charles focused their efforts on the hardware aspects of the project while Tarun focused on the software. By combining their efforts, they were able to create a highly efficient system.
+    image: /images/team.svg
 
 
 #Testimonial
@@ -77,7 +82,7 @@ testimonial:
     - author: Joesph Yu
       avatar: /images/user-img/01.jpeg
       profession: Student, User
-      content: SISO greatly expedites the sign-in process and makes more time for me to socialize with my classmates in the morning
+      content: SISO greatly expedites the sign-in process and makes more time for me to socialize with my classmates in the morning.
     - author: Ashwina Bangari
       avatar: /images/user-img/02.jpg
       profession: Student, Alpha Tester
@@ -86,5 +91,25 @@ testimonial:
       avatar: /images/user-img/03.png
       profession: Student, Alpha Tester
       content: Their service is always online, an exceptional level of reliability.
+    - author: Nevin Thinagar
+      avatar: /images/user-img/05.png
+      profession: Student, Alpha Tester
+      content: MAMS SISO is an innovative approach for taking a once paper-based system and making it more capable and efficient.
+    - author: Arnav Gupta
+      avatar: /images/user-img/06.png
+      profession: Student, Beta Tester
+      content: This project was very efficient with a cost effective and unique approach to solving a major need.
+    - author: Shreya Venkayala
+      avatar: /images/user-img/07.png
+      profession: Student, Alpha Tester
+      content: This system made signing and signing out very easy and I could get on about my day quickly.
+    - author: Vanessa Fobid
+      avatar: /images/user-img/08.png
+      profession: Student, Observer
+      content: MAMS SISO is such a high tech system that makes signing in and signing out so much faster!
+    # - author: Alex Chen
+    #   avatar: /images/user-img/08.png
+    #   profession: Student, Observer
+    #   content: MAMS SISO truly speeds up the login process in the morning.
 
 ---
